@@ -1,0 +1,63 @@
+.task-creator {
+    background-color: skyblue;
+    padding: 20px;
+  }
+  
+  .task-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .add-task-button {
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .task-form {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .task-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .task-form input,
+  .task-form select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .task-form button {
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .task-form button:not(:first-child) {
+    margin-left: 10px;
+  }
+  
+  .task-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .task-form div {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
